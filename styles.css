@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('tarjeta.png');/* Añade la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: #f7efcd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(253, 253, 253, 0.945);
+    text-align: center;
+    width: 300px;
+    color: #f58992;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de rebote al pasar el ratón */
+}
+
+.hidden {
+    display: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color:#f7efcd;
+    background: #f58992;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background: #131313;
+    color: #f58992;
+    font-weight: bold;
+}
+
+#imagen {
+    margin-top: 20px; /* Espacio entre la pista y la imagen */
+    width: 100%; /* Ajusta el tamaño según sea necesario */
+    max-width: 300px; /* Limita el tamaño máximo */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
